@@ -1,0 +1,4 @@
+Fuzzy Control
+In a mobile robot, implement a controller based on the concept of fuzzy control. The robot starts from a location designated by the instructor and must stop at a distance of 50 cm from a wall using an ultrasonic distance sensor. Each time before the attempt, the instructor specifies a delay number that must be introduced into the main control loop of the robot (number from 0 to 1000 ms). The delay symbolizes the slipperiness of the surface. The robot must complete the entire task within a time limit set by the instructor. Crossing the 50 cm line disqualifies the attempt.
+Note:
+• The software must contain all three phases of fuzzy control: fuzzification, application of logical rules, defuzzification

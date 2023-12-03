@@ -1,0 +1,5 @@
+PID
+In a mobile robot, implement line following for a line drawn on the ground. Implement a PID controller based on the signal from a five-channel optical sensor. Select appropriate coefficients for each part of the controller. The robot must have an implemented procedure for searching for the line in case it is lost. The final test will be the robot's travel along a test route in a time shorter than the reference time set by the instructor.
+Note:
+• Standard libraries for the alpha bot can be used when reading sensor values.
+• The PID controller must be code manually implemented by the student.

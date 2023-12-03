@@ -1,0 +1,14 @@
+Odometry
+In a mobile robot, implement your proposed communication protocol based on a serial interface that allows for the command to 
+
+    1. drive straight for a specified distance forward and backward.
+
+    2. Turn right or left by a specified angle (with an accuracy of at least 45 degrees).
+
+The implementation of determining the robot's position should be based on encoders on the robot's drive motors, and control should be carried out in a feedback loop to increase the accuracy of the actions performed.
+
+The final test will be the robot's execution of the following task:
+
+The operator manually controls the robot to travel from designated point A to point B.
+
+Then the robot is moved back to point A. Through the serial interface, a sequence of commands is sent to it, enabling the robot to autonomously travel from point A to point B.
